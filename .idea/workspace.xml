@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e500ef-f990-4874-9331-edbddd76ba18" name="Changes" comment="" />
+    <list default="true" id="d6e500ef-f990-4874-9331-edbddd76ba18" name="Changes" comment="feat: setting shared dependencies">
+      <change beforePath="$PROJECT_DIR$/container/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/container/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/config/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/container/config/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/container/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/container/config/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/container/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing/config/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/config/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/config/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/package.json" afterDir="false" />
+    </list>
+    <list id="9d37cbd1-41c5-4340-a24e-ed0af793e447" name="no submit" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +40,12 @@
     &quot;assignee&quot;: &quot;iBags&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/iBags/microfrontends.git&quot;,
-    &quot;accountId&quot;: &quot;92ff78dc-79c3-4424-bf50-b7978210fb37&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/iBags/mf-app.git",
+    "accountId": "92ff78dc-79c3-4424-bf50-b7978210fb37"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -50,21 +64,43 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/gabyc/Learning/Microfrontends/mf-app/marketing",
+    "last_opened_file_path": "C:/Users/gabyc/Learning/Microfrontends/mf-app/container",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "ts.external.directory.path": "C:\\Program Files (x86)\\Programs\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabyc\Learning\Microfrontends\mf-app\container" />
       <recent name="C:\Users\gabyc\Learning\Microfrontends\mf-app\marketing" />
       <recent name="C:\Users\gabyc\Learning\Microfrontends\mf-app\dashboard" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabyc\Learning\Microfrontends\mf-app\marketing\config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/marketing/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -77,16 +113,79 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d6e500ef-f990-4874-9331-edbddd76ba18" name="Changes" comment="" />
+      <changelist id="9d37cbd1-41c5-4340-a24e-ed0af793e447" name="no submit" comment="" />
       <created>1755742082462</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755742082462</updated>
       <workItem from="1755742083937" duration="2216000" />
-      <workItem from="1755805701810" duration="2359000" />
+      <workItem from="1755805701810" duration="8251000" />
+      <workItem from="1755872099370" duration="12000" />
+      <workItem from="1755874183960" duration="2913000" />
+      <workItem from="1755877188591" duration="3060000" />
+      <workItem from="1755959002166" duration="4544000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: initial commit :)">
+      <option name="closed" value="true" />
+      <created>1755808318632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755808318632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add bootstraping for marketing app">
+      <option name="closed" value="true" />
+      <created>1755875524320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755875524321</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add components at marketing app">
+      <option name="closed" value="true" />
+      <created>1755876219875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755876219875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: setting up container app">
+      <option name="closed" value="true" />
+      <created>1755876885721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755876885721</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: integrating marketing app as remote">
+      <option name="closed" value="true" />
+      <created>1755880328614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755880328614</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: setting shared dependencies">
+      <option name="closed" value="true" />
+      <created>1755963656374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755963656374</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initial commit :)" />
+    <MESSAGE value="feat: add bootstraping for marketing app" />
+    <MESSAGE value="feat: add components at marketing app" />
+    <MESSAGE value="feat: setting up container app" />
+    <MESSAGE value="feat: integrating marketing app as remote" />
+    <MESSAGE value="feat: setting shared dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setting shared dependencies" />
   </component>
 </project>
