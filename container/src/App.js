@@ -4,7 +4,8 @@ import MarketingApp from './components/MarketingApp';
 export default () => {
   return (
     <div>
-      <h1 style="text-align: center">This is my awesome Container and I'm trying to trigger my github action x6</h1>
+      <h1 style="text-align: center">This is my awesome Container</h1>
+      <p>Update a message for trigger github actions :D</p>
       <hr />
       <MarketingApp />
     </div>
